@@ -17,7 +17,7 @@ void main(){
       break;
     case '/':
       if(b != 0) {
-        print(divide(a, b).toStringAsFixed(2));
+        print(divide(a, b).toInt());
       }
       break;
     default:
