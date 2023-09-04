@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2b0ffd4-3537-4a4d-b259-5770079ee81e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Flutter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flutter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module05/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/module05/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/module05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module05/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/lib/ProblemSolving/01_SimpleArithmetic.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/lib/ProblemSolving/02_PartyDressCode.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/module05/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/module05/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/module05/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module05/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/web/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/module05/web/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/windows/flutter/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module05/windows/flutter/CMakeLists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ux8PIH5Qqn0aEpSwyKMUjYRmgy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/msa97/OneDrive/Desktop/Flutter",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2b0ffd4-3537-4a4d-b259-5770079ee81e" name="Changes" comment="" />
+      <created>1693869849256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693869849256</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
