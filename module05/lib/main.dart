@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Jarvis',
       // home: HomeScreen(),
@@ -17,20 +19,22 @@ class MyApp extends StatelessWidget {
 }
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text(
+        title: const Text(
           'IronMan',
           style: TextStyle(color: Colors.lightGreen),
         ),
         backgroundColor: Colors.indigo,
-        leading: Icon(Icons.accessibility_sharp, color: Colors.green),
+        leading: const Icon(Icons.accessibility_sharp, color: Colors.green),
       ),
       backgroundColor: Colors.white12,
-      body: Center(
+      body: const Center(
         child: Text(
           'Hello World',
           style: TextStyle(
@@ -45,36 +49,43 @@ class HomeScreen extends StatelessWidget {
 }
 
 class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.indigo,
       appBar: AppBar(
         centerTitle: true,
-        title: Text('IronMan', style: TextStyle(color: Colors.lightGreen)),
+        title:
+            const Text('IronMan', style: TextStyle(color: Colors.lightGreen)),
         backgroundColor: Colors.indigo,
-        leading: Icon(Icons.accessibility_sharp, color: Colors.green),
+        leading: const Icon(Icons.accessibility_sharp, color: Colors.green),
       ),
-      body: Column(
-        // mainAxisAlignment: MainAxisAlignment.center,
-
-        children: [
-          Text('Column 1',
+      body: const Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text('Column #1',
+                style: TextStyle(
+                    color: Colors.amber,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 25)),
+            Text(
+              'Column #2',
               style: TextStyle(
                   color: Colors.amber,
                   fontWeight: FontWeight.bold,
-                  fontSize: 25)),
-          Text(
-            'Column 2',
-            style: TextStyle(
-                color: Colors.amber, fontWeight: FontWeight.bold, fontSize: 25),
-          ),
-          Text('Column 3'),
-          Icon(
-            Icons.add_a_photo_rounded,
-            color: Colors.amber,
-          )
-        ],
+                  fontSize: 25),
+            ),
+            Text('Column #3'),
+            Icon(
+              Icons.add_a_photo_rounded,
+              color: Colors.amber,
+            )
+          ],
+        ),
       ),
     );
   }
