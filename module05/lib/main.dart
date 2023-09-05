@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'University Routine App',
+      title: 'Jarvis',
       // home: HomeScreen(),
       home: SecondScreen(),
     );
@@ -21,7 +21,11 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('I am IronMan', style: TextStyle(color: Colors.lightGreen)),
+        centerTitle: true,
+        title: Text(
+          'IronMan',
+          style: TextStyle(color: Colors.lightGreen),
+        ),
         backgroundColor: Colors.indigo,
         leading: Icon(Icons.accessibility_sharp, color: Colors.green),
       ),
@@ -44,9 +48,10 @@ class SecondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white12,
+      backgroundColor: Colors.indigo,
       appBar: AppBar(
-        title: Text('I am IronMan', style: TextStyle(color: Colors.lightGreen)),
+        centerTitle: true,
+        title: Text('IronMan', style: TextStyle(color: Colors.lightGreen)),
         backgroundColor: Colors.indigo,
         leading: Icon(Icons.accessibility_sharp, color: Colors.green),
       ),
@@ -64,6 +69,7 @@ class SecondScreen extends StatelessWidget {
             style: TextStyle(
                 color: Colors.amber, fontWeight: FontWeight.bold, fontSize: 25),
           ),
+          Text('Column 3'),
           Icon(
             Icons.add_a_photo_rounded,
             color: Colors.amber,
