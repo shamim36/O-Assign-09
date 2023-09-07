@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,10 +8,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      title: 'IronMan',
       debugShowCheckedModeBanner: false,
-      title: 'Jarvis',
-      // home: HomeScreen(),
-      home: SecondScreen(),
+      home: HomeScreen(),
     );
   }
 }
@@ -25,67 +22,63 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
         title: const Text(
           'IronMan',
-          style: TextStyle(color: Colors.lightGreen),
+          style: TextStyle(fontWeight: FontWeight.w600),
         ),
-        backgroundColor: Colors.indigo,
-        leading: const Icon(Icons.accessibility_sharp, color: Colors.green),
-      ),
-      backgroundColor: Colors.white12,
-      body: const Center(
-        child: Text(
-          'Hello World',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 25,
-            fontWeight: FontWeight.bold,
-          ),
+        leading: const Icon(
+          Icons.home,
+          color: Colors.black,
+          size: 28,
         ),
+        centerTitle: true,
+        backgroundColor: Colors.black54,
       ),
+      backgroundColor: Colors.cyan,
+      body: const Screen(),
     );
   }
 }
 
-class SecondScreen extends StatelessWidget {
-  const SecondScreen({super.key});
+class Screen extends StatelessWidget {
+  const Screen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.indigo,
-      appBar: AppBar(
-        centerTitle: true,
-        title:
-            const Text('IronMan', style: TextStyle(color: Colors.lightGreen)),
-        backgroundColor: Colors.indigo,
-        leading: const Icon(Icons.accessibility_sharp, color: Colors.green),
-      ),
-      body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text('Column #1',
+      backgroundColor: Colors.cyan,
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Hello World!',
                 style: TextStyle(
-                    color: Colors.amber,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 25)),
-            Text(
-              'Column #2',
-              style: TextStyle(
-                  color: Colors.amber,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 25),
-            ),
-            Text('Column #3'),
-            Icon(
-              Icons.add_a_photo_rounded,
-              color: Colors.amber,
-            )
-          ],
-        ),
+                    color: Colors.yellowAccent,
+                    fontSize: 30,
+                    fontWeight: FontWeight.w800),
+              ),
+              Text('Hello World!!', style: TextStyle(fontSize: 30)),
+              Text('Hello World!!!', style: TextStyle(fontSize: 30)),
+              Image.asset(
+                ///never use const Scanffold inorder to use Image class
+                'images/me.jpg',
+                height: 200,
+                width: 200,
+              ),
+              Image.network(
+                'https://th.bing.com/th/id/OIP.--Y0iYznvimRR47CewpzLAHaE8?pid=ImgDet&rs=1',
+                height: 200,
+                width: 200,
+                fit: BoxFit.scaleDown,
+              ),
+
+              // Image.asset("images/me.jpg"),
+            ],
+          ),
+        ],
       ),
     );
   }
