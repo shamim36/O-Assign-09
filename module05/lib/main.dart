@@ -74,6 +74,26 @@ class Screen extends StatelessWidget {
                 width: 200,
                 fit: BoxFit.scaleDown,
               ),
+              Row(
+                children: [
+                  RichText(
+                    text: TextSpan(
+                      text: 'Hello, ',
+                      style:
+                          TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
+                      children: [
+                        TextSpan(
+                            text: 'How Are you? ',
+                            style: TextStyle(
+                                fontSize: 25,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.red)),
+                        TextSpan(text: 'Good Moring!!!'),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
 
               // Image.asset("images/me.jpg"),
             ],
