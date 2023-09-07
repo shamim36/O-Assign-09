@@ -53,17 +53,17 @@ class Screen extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'Hello World!',
                 style: TextStyle(
                     color: Colors.yellowAccent,
                     fontSize: 30,
                     fontWeight: FontWeight.w800),
               ),
-              Text('Hello World!!', style: TextStyle(fontSize: 30)),
-              Text('Hello World!!!', style: TextStyle(fontSize: 30)),
+              const Text('Hello World!!', style: TextStyle(fontSize: 30)),
+              const Text('Hello World!!!', style: TextStyle(fontSize: 30)),
               Image.asset(
-                ///never use const Scanffold inorder to use Image class
+                ///never use const Scaffold inorder to use Image class
                 'images/me.jpg',
                 height: 200,
                 width: 200,
@@ -77,7 +77,7 @@ class Screen extends StatelessWidget {
               Row(
                 children: [
                   RichText(
-                    text: TextSpan(
+                    text: const TextSpan(
                       text: 'Hello, ',
                       style:
                           TextStyle(fontWeight: FontWeight.w400, fontSize: 20),
@@ -88,7 +88,7 @@ class Screen extends StatelessWidget {
                                 fontSize: 25,
                                 fontWeight: FontWeight.w800,
                                 color: Colors.red)),
-                        TextSpan(text: 'Good Moring!!!'),
+                        TextSpan(text: 'Good Morning!!!'),
                       ],
                     ),
                   ),
