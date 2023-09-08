@@ -43,7 +43,7 @@ class ProfileActivity extends StatelessWidget {
                 ),
                 Text(
                   'Flutter Batch 4',
-                  style: TextStyle(fontSize: 40, color: Colors.blue),
+                  style: TextStyle(fontSize: 30, color: Colors.blue),
                 ),
               ],
             ),
