@@ -37,13 +37,16 @@ class ProfileActivity extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
+                Image.network(
+                    'https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-3/177800/129-512.png',
+                    scale: 9),
+                const Text(
                   'Jhon Doe',
-                  style: TextStyle(fontSize: 40, color: Colors.green),
+                  style: TextStyle(fontSize: 35, color: Colors.green),
                 ),
-                Text(
+                const Text(
                   'Flutter Batch 4',
-                  style: TextStyle(fontSize: 30, color: Colors.blue),
+                  style: TextStyle(fontSize: 25, color: Colors.blue),
                 ),
               ],
             ),
